@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FuelApp</string>
+    <string name="vehicle_title">Vehiculo </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_fuel_records">FuelRecords</string>
+    <string name="strOk">Ok</string>
+    <string name="strCancel">Cancelar</string>
+
+    <!-- fuel_records_activity Variables -->
+    <string name="Date_fuel_records">Fecha</string>
+    <string name="Odometro_fuel_records">Odometro(Kilometros)</string>
+    <string name="totalPrice_fuel_records">Precio Total($)</string>
+    <string name="Liters_fuel_records">Cantidad de combustible(litros)</string>
+    <string name="literPrice_fuel_records">Precio de combustible(por litro)</string>
+    <string name="Note_fuel_records">Notas</string>
+    <string name="title_activity_show_records">showRecords</string>
+    <string name="title_activity_record_details">recordDetails</string>
+    <!---->
+    <string name="Date"><b>FECHA: </b></string>
+    <string name="Odometro">ODOMETRO(KM): </string>
+    <string name="totalPrice">Precio TOTAL($): </string>
+    <string name="Liters">LITROS: </string>
+    <string name="literPrice">PRECIO LITRO: </string>
+    <string name="Notes">NOTAS: </string>
+
+</resources>

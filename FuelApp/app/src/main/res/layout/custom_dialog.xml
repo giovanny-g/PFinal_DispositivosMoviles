@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre del vehiculo"
+        android:id="@+id/tvNombre"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tamaño del taque (litros)"
+        android:id="@+id/tvTanque"
+        android:layout_below="@+id/txtNombre"
+        android:layout_alignLeft="@+id/txtTanque"
+        android:layout_alignStart="@+id/txtTanque"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp" />
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:id="@+id/txtNombre"
+        android:ellipsize="start"
+        android:inputType="text"
+        android:background="@drawable/et_style"
+        android:layout_below="@+id/tvNombre"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp" />
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:id="@+id/txtTanque"
+        android:ellipsize="start"
+        android:inputType="text"
+        android:background="@drawable/et_style"
+        android:layout_below="@+id/tvTanque"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        android:id="@+id/btnOk"
+        android:layout_below="@+id/txtTanque"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        style="@drawable/btn_style" />
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Cancelar"
+        android:id="@+id/btnCancel"
+        android:layout_alignTop="@id/btnOk"
+        android:layout_alignParentRight="true"
+        android:textColor="#000000" />
+
+</RelativeLayout>

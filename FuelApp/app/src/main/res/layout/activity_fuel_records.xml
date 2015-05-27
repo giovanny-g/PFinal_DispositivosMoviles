@@ -1,0 +1,186 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.giovanny.fuelapp.fuelRecords">
+
+    <TextView
+        android:text="@string/Date_fuel_records"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:id="@+id/tvDate"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/txtDate"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="0dp"
+        android:layout_below="@+id/tvDate"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:inputType="text"
+        android:background="@drawable/et_style"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:text="@string/Odometro_fuel_records"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:id="@+id/tvOdometro"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/txtDate"
+        android:textColor="#000000" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/txtOdometro"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="0dp"
+        android:layout_below="@+id/tvOdometro"
+        android:inputType="text"
+        android:background="@drawable/et_style"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:text="@string/totalPrice_fuel_records"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:id="@+id/tvttotalPrice"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/txtOdometro"
+        android:textColor="#000000" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/txttotalPrice"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="0dp"
+        android:layout_below="@+id/tvttotalPrice"
+        android:inputType="text"
+        android:background="@drawable/et_style"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:text="@string/Liters_fuel_records"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:id="@+id/tvLiters"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/txttotalPrice"
+        android:textColor="#000000" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/txtLiters"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvLiters"
+        android:layout_marginTop="0dp"
+        android:inputType="text"
+        android:background="@drawable/et_style"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:text="@string/literPrice_fuel_records"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:id="@+id/tvliterPrice"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/txtLiters"
+        android:textColor="#000000"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/txtliterPrice"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="0dp"
+        android:layout_below="@+id/tvliterPrice"
+        android:inputType="text"
+        android:background="@drawable/et_style"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:text="@string/Note_fuel_records"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:id="@+id/tvNote"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/txtliterPrice"
+        android:textColor="#000000" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:id="@+id/txtNote"
+        android:layout_below="@+id/tvNote"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:inputType="text"
+        android:background="@drawable/et_style"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/strOk"
+        android:id="@+id/btnOk"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="30dp" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/strCancel"
+        android:id="@+id/btnCancel"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/txtNote"
+        android:layout_alignEnd="@+id/txtNote"
+        android:layout_marginRight="30dp" />
+
+</RelativeLayout>
+</ScrollView>
